@@ -11,3 +11,7 @@
     text-align: center;
     background: none;
 }
+.sectionLight {
+    background-color: #eceeef;
+    padding: 2rem;
+}
