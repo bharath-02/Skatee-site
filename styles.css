@@ -31,8 +31,6 @@ button.coolBtn {
 h4.modal-title {
     margin:auto;
 }
-
-
-div.r div {
-    border: 1px solid black;
+.modalWrapper {
+     padding: 2rem;
 }
