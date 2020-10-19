@@ -28,3 +28,11 @@ button.coolBtn {
     display: block;
     margin: auto;
 }
+h4.modal-title {
+    margin:auto;
+}
+
+
+div.r div {
+    border: 1px solid black;
+}
