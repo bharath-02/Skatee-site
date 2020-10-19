@@ -19,3 +19,12 @@
     background-color: #cccccc;
     padding: 2rem;
 }
+.coolbutton {
+    margin-top:20px;
+}
+button.coolbtn {
+    background-color: red;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+}
