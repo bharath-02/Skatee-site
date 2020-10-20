@@ -60,6 +60,22 @@ h4.modal-title {
     padding: 7px;
 }
 
+.fa {
+    margin: 10px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-google-plus-square {
+    color: #c32f10;
+}
+
+.fa-instagram {
+    color: #ffffff;
+}
+
 @media (max-width:992px) {
     */ .btn-center {
         width: 38%;
