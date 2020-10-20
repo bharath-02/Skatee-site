@@ -139,7 +139,7 @@
                             <img src="Assets/kickflip.jpg" class="img-fluid imgCenter">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <button class="btn btn-danger btn-lg btn-block btn-center" data-toggle="modal" data-target=".kf-modal-xl">Kickflip</button>
+                                    <button class="btn btn-danger btn-lg btn-block btn-center" data-toggle="modal" data-target="#kfModal">Kickflip</button>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +147,7 @@
                             <img src="Assets/360flip.jpg" class="img-fluid imgCenter">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <button class="btn btn-danger btn-lg btn-block btn-center" data-toggle="modal" data-target=".360-modal-lg">360 Flip</button>
+                                    <button class="btn btn-danger btn-lg btn-block btn-center" data-toggle="modal" data-target="#modal360">360 Flip</button>
                                 </div>
                             </div>
                         </div>
@@ -155,7 +155,7 @@
                             <img src="Assets/bscrook.jpg" class="img-fluid imgCenter">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <button class="btn btn-danger btn-lg btn-block btn-center" data-toggle="modal" data-target=".BS-modal-sm">Backside Crook</button>
+                                    <button class="btn btn-danger btn-lg btn-block btn-center" data-toggle="modal" data-target="#bsModal">Backside Crook</button>
                                 </div>
                             </div>
                         </div>
@@ -207,8 +207,8 @@
         </div>
         <!-- End of the Modal -->
         <!-- Kick Flip Modal -->
-        <div class="modal fade kf-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
+        <div class="modal fade" id="kfModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen>
@@ -220,8 +220,8 @@
         </div>
         <!-- End of KF Modal -->
         <!-- 360 Flip -->
-        <div class="modal fade 360-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
+        <div class="modal fade" id="modal360" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md">
                 <div class="modal-content">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen>
@@ -233,7 +233,7 @@
         </div>
         <!-- End of 360 Modal -->
         <!-- Backside Crook Modal-->
-        <div class="modal fade BS-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal fade" id="bsModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                     <div class="embed-responsive embed-responsive-16by9">
